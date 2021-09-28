@@ -1,0 +1,243 @@
+*{
+    box-sizing:border-box;
+}
+
+html{
+    margin: auto;
+    max-width: 1440px;
+    font-size:14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #214E41;
+    background-color: #fff;
+    line-height: 167%;
+    
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+
+/*class="header"
+.header {}*/
+    /*<input type="text">
+    input [type="text"] {}*/
+
+/* id="top"
+#top{} */
+
+/* div class="header" id="top"
+    .header#top {} */
+
+/* ul class="nav-list"
+    .nav_list a {} - через пробел ищет на всех уровнях вложенности */
+body{
+    width:1440px;
+}
+    .header {
+    max-height: 90;
+    
+}
+.container {
+    max-width:1230px; /*1230, т.к 1200+30 на падинги*/
+    /* margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto; */
+
+    /*margin: 0 auto 0 auto;*/
+
+    /*margin: 0 auto 0;*/
+
+    margin: 45px auto 45px auto;
+    padding: 0 15px;              /*??*/
+    
+}
+
+.header-row {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.nav_list {
+    margin:0;
+    padding:0;
+    list-style:none;
+    display: flex;
+}
+
+.nav_list a {
+    text-decoration:none;
+    font-weight: bold;
+    color: #214E41;
+}
+
+.btn{
+    background: #43806C;
+    border-radius: 6px;
+    border: 0px;             /*??*/
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10 15;
+    margin: 0px 0px;
+    width: 137px;
+    height: 40px;
+    
+}
+.nav_list li {
+        margin-right: 50px;
+    }
+
+.background_benefits {
+    background: url(../imgs/Rectangle.jpg);
+    border-radius: 0px;
+    margin:0px 0px;
+    height:720px;
+    width:1440px;
+}
+
+.benefits {
+    width: 660px;   
+    padding-left: 120px;
+    padding-top: 161px;
+    margin:0px 0px 53px 0px;
+}
+
+.benefits_text1 {
+    font-size: 36px;
+    line-height: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.benefits_text2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top:40px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom:76px;
+
+}
+
+p {margin:0 0}
+
+
+.benefits_sub {
+    width:1230px;
+    height:171px;
+    background-color: #fff;
+    margin-top: 53px;
+    margin-left: 120px;
+    padding: 50px 50px 50px 50px;
+    display:flex;
+    border-radius: 6px;
+}
+
+.sub_block2{
+    height:71px;
+    width:356px;
+    
+}
+.umbrella {
+    width:41px;
+    height:45px;
+    float:left;
+    margin-right:10px;
+    margin-top: 7px;
+    margin-bottom: 19px;
+}
+.umbrella-text {
+    width: 305px;
+    height:69px;
+    float:right;
+    
+}
+
+.text_block2_sub {
+    margin-bottom: 7px;
+    font-size: 16px;
+}
+
+
+
+.tip {
+    width:46px;
+    height:45px;
+    float:left;
+    margin-right:10px;
+    margin-top: 7px;
+    margin-bottom: 19px;
+}
+.tip-text{
+    width: 300px;
+    height:69px;
+    float:right;
+    
+}
+
+        
+    .money {
+        width:58px;
+        height:45px;
+        float:left;
+        margin-right:10px;
+        margin-top: 7px;
+        margin-bottom: 19px;
+    }
+    .money-text{
+        width: 288px;
+        height:69px;
+        float:right;
+        
+    }
+
+    /*.background2 {
+    background-color:#fff;
+    }*/
+
+.why_brella {
+    background-color:#fff;
+    max-width:1230px;
+    max-height: 432px;
+    padding: 0px auto;
+    margin: 176px 120px 120px 120px;
+    display: flex;
+}
+.why_br_left {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 37px 110px 37px 60px;
+}
+.why_1 {
+    font-size:13px;
+}
+.why_2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 46px;
+}
+.why_3 {
+    font-size: 18px;
+    line-height: 30px;      
+}
+.why_4 {
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+.why_brella a{
+  border-bottom: solid;
+  text-decoration:none;
+  padding-bottom: 10px;
+}
+.why_brella a:visited{
+color:#214E41;
+}
